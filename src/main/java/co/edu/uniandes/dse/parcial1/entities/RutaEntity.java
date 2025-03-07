@@ -19,7 +19,7 @@ public class RutaEntity extends BaseEntity {
 
     @PodamExclude
 	@ManyToMany(mappedBy = "rutas")
-	private List<RutaEntity> rutas = new ArrayList<>();
+	private List<EstacionEntity> estacion = new ArrayList<>();
 
 
 }
